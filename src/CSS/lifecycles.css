@@ -1,0 +1,27 @@
+.lifecycles{
+    text-align: center;
+}
+
+button{
+    margin: 10px;
+    background-color:  white;
+    color: black;
+    width: 140px;
+    height: 40px;
+    border: none;
+
+}
+
+.lifecycles {
+    margin-top:  20px;
+}
+
+.App-header{
+    background-color: wheat;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}

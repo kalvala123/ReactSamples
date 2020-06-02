@@ -6,6 +6,7 @@ import ToggleTest from './Components/ToggleTest';
 import Persons from './persons.js'
 import AppColor from './Components/AppColor.js'
 import Form from './Components/MyForm.js'
+import LifeCyclesTest from './Components/LifeCyclesTest.js'
 
 var x = "123"
 
@@ -228,4 +229,4 @@ class App extends Component{
   }
 }
 
-render(<Form />, document.getElementById('root'));
+render(<LifeCyclesTest />, document.getElementById('root'));
