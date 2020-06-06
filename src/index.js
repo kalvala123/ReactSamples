@@ -8,6 +8,7 @@ import AppColor from './Components/AppColor.js'
 import Form from './Components/MyForm.js'
 import LifeCyclesTest from './Components/LifeCyclesTest.js'
 import RouterTest from './ReactRouter/RouterTest.js'
+import AxiosTest from './AxiosTest/AxiosTest.js'
 
 var x = "123"
 
@@ -230,4 +231,4 @@ class App extends Component{
   }
 }
 
-render(<RouterTest/>, document.getElementById('root'));
+render(<AxiosTest/>, document.getElementById('root'));
