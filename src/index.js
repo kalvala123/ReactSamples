@@ -7,6 +7,7 @@ import Persons from './persons.js'
 import AppColor from './Components/AppColor.js'
 import Form from './Components/MyForm.js'
 import LifeCyclesTest from './Components/LifeCyclesTest.js'
+import RouterTest from './ReactRouter/RouterTest.js'
 
 var x = "123"
 
@@ -229,4 +230,4 @@ class App extends Component{
   }
 }
 
-render(<LifeCyclesTest />, document.getElementById('root'));
+render(<RouterTest/>, document.getElementById('root'));
