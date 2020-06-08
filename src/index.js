@@ -9,6 +9,7 @@ import Form from './Components/MyForm.js'
 import LifeCyclesTest from './Components/LifeCyclesTest.js'
 import RouterTest from './ReactRouter/RouterTest.js'
 import AxiosTest from './AxiosTest/AxiosTest.js'
+import AxiosEventsTest from './AxiosEventsTest/AxiosEventsTest.js'
 
 var x = "123"
 
@@ -231,4 +232,4 @@ class App extends Component{
   }
 }
 
-render(<AxiosTest/>, document.getElementById('root'));
+render(<AxiosEventsTest/>, document.getElementById('root'));

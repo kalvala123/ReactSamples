@@ -1,0 +1,32 @@
+.main {
+    width:100%;
+  }
+.center {
+    margin:0 auto;
+    width:200px;
+  }
+.left {
+    float:left;
+    width:100px;
+    background-color: white;
+}
+.right {
+    float:right;
+    width:100px;
+    background-color: white;
+}
+.top {
+    float:top;
+} 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.column {
+    width: 50%;
+    background: red;
+}
+.column img {
+    width: 100%;
+}  
