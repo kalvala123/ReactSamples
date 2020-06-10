@@ -10,6 +10,9 @@ import LifeCyclesTest from './Components/LifeCyclesTest.js'
 import RouterTest from './ReactRouter/RouterTest.js'
 import AxiosTest from './AxiosTest/AxiosTest.js'
 import AxiosEventsTest from './AxiosEventsTest/AxiosEventsTest.js'
+import HandleContainerTest from './Reference/HandleContainerTest.js'
+import ChildTest from './Reference/ChildTest.js'
+import HOCTEST from './Reference/HigherOrderComponent'
 
 var x = "123"
 
@@ -95,7 +98,8 @@ class CarState extends React.Component{
       brand : "Ford",
       model : "Mustand",
       color: "Brown",
-      year: "1999"
+      year: "
+      1999"
     }
     this.props = {
       name: "Krishna"
@@ -232,4 +236,4 @@ class App extends Component{
   }
 }
 
-render(<AxiosEventsTest/>, document.getElementById('root'));
+render(<HOCTEST/>, document.getElementById('root'));
