@@ -1,0 +1,11 @@
+.table{
+    width: 100%;
+    height: 100%;
+    background-color: white
+}
+
+.tableHeader{
+    width: 100%;
+    height: 10px;
+    background-color: tomato;
+}

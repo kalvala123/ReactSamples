@@ -13,6 +13,7 @@ import AxiosEventsTest from './AxiosEventsTest/AxiosEventsTest.js'
 import HandleContainerTest from './Reference/HandleContainerTest.js'
 import ChildTest from './Reference/ChildTest.js'
 import HOCTEST from './Reference/HigherOrderComponent'
+import DataTables from './DataTables/DataTables'
 
 var x = "123"
 
@@ -236,4 +237,4 @@ class App extends Component{
   }
 }
 
-render(<HOCTEST/>, document.getElementById('root'));
+render(<DataTables/>, document.getElementById('root'));
